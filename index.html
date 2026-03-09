@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVR Cable TV</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            margin:0;
+            background:#f4f6f9;
+        }
+
+        header{
+            background:#0d47a1;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#1565c0;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            margin:15px;
+            text-decoration:none;
+            font-size:18px;
+        }
+
+        .hero{
+            padding:60px;
+            text-align:center;
+            background:linear-gradient(#1976d2,#42a5f5);
+            color:white;
+        }
+
+        .container{
+            padding:40px;
+        }
+
+        .cards{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            width:250px;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        button{
+            background:#0d47a1;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .contact{
+            background:#e3f2fd;
+            padding:40px;
+            text-align:center;
+        }
+
+        input, textarea{
+            width:80%;
+            padding:10px;
+            margin:10px;
+            border-radius:5px;
+            border:1px solid gray;
+        }
+
+        footer{
+            background:#0d47a1;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        @media(max-width:768px){
+            .cards{
+                flex-direction:column;
+                align-items:center;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>AVR Cable TV</h1>
+        <p>Best Digital Cable Service</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#plans">Plans</a>
+        <a href="#channels">Channels</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Enjoy 300+ HD Channels</h2>
+        <p>Affordable Cable TV Service in Your Area</p>
+        <button>Subscribe Now</button>
+    </section>
+
+    <section class="container" id="plans">
+
+        <h2 style="text-align:center">Our Plans</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Basic</h3>
+                <p>100 Channels</p>
+                <h2>₹150</h2>
+                <p>Per Month</p>
+            </div>
+
+            <div class="card">
+                <h3>Standard</h3>
+                <p>200 Channels</p>
+                <h2>₹250</h2>
+                <p>Per Month</p>
+            </div>
+
+            <div class="card">
+                <h3>Premium</h3>
+                <p>300+ HD Channels</p>
+                <h2>₹350</h2>
+                <p>Per Month</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container" id="channels">
+
+        <h2 style="text-align:center">Popular Channels</h2>
+
+        <div class="cards">
+
+            <div class="card">Sun TV</div>
+            <div class="card">Star Vijay</div>
+            <div class="card">Zee Tamil</div>
+            <div class="card">KTV</div>
+            <div class="card">Sun Music</div>
+            <div class="card">Discovery</div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contact AVR Cable TV</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name"><br>
+            <input type="tel" placeholder="Mobile Number"><br>
+            <textarea placeholder="Message"></textarea><br>
+
+            <button>Send Message</button>
+
+        </form>
+
+        <p>📞 9629033356</p>
+        <p>📧 duraikhan001@gmail.com</p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 AVR Cable TV | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
